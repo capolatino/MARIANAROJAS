@@ -1,0 +1,8 @@
+# Vercel ignore file - ensure all important files are included
+# This file should be empty or minimal to ensure Vercel processes all files
+
+# Only ignore truly unnecessary files
+node_modules
+.next
+.vercel
+*.log
