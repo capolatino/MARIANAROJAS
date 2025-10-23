@@ -1,22 +1,15 @@
 {
+  "framework": "nextjs",
   "buildCommand": "npm run build",
   "installCommand": "npm install",
-  "framework": "nextjs",
   "functions": {
     "app/api/**/*.ts": {
       "maxDuration": 30
     }
   },
-  "env": {
-    "DATABASE_URL": "@database_url",
-    "NEXTAUTH_SECRET": "@nextauth_secret",
-    "NEXTAUTH_URL": "@nextauth_url",
-    "ADMIN_EMAIL": "@admin_email",
-    "ADMIN_PASSWORD": "@admin_password",
-    "MP_PUBLIC_KEY": "@mp_public_key",
-    "MP_ACCESS_TOKEN": "@mp_access_token",
-    "EMAIL_FROM": "@email_from",
-    "RESEND_API_KEY": "@resend_api_key",
-    "SITE_URL": "@site_url"
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
   }
 }
