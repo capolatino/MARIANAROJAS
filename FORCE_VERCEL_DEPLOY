@@ -1,0 +1,4 @@
+# FORCE VERCEL DEPLOYMENT
+# This file forces Vercel to recognize changes and deploy the latest commit
+# Commit: 0a3b446 - trigger: force Vercel deployment with trigger file
+# Includes: autoprefixer in dependencies, all UI components, proper configuration
