@@ -81,3 +81,4 @@
 .mariana-button-secondary {
   @apply bg-gradient-to-r from-mariana-beige to-mariana-accent hover:from-mariana-accent hover:to-mariana-beige text-white font-medium transition-all duration-300 shadow-lg hover:shadow-xl;
 }
+

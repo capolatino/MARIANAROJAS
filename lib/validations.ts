@@ -40,3 +40,4 @@ export type BookingFormData = z.infer<typeof bookingSchema>
 export type AdminLoginFormData = z.infer<typeof adminLoginSchema>
 export type ServiceFormData = z.infer<typeof serviceSchema>
 export type AvailabilityBlockFormData = z.infer<typeof availabilityBlockSchema>
+

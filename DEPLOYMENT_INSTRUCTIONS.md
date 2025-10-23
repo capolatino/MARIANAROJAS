@@ -123,3 +123,4 @@ Una vez completados todos los pasos, tendrás:
 - ✅ Base de datos configurada
 
 ¡La web de Mariana Rojas estará lista para recibir reservas! 💅✨
+

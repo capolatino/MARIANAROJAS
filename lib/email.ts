@@ -140,3 +140,4 @@ export function generateICS(booking: any): string {
   
   return ics
 }
+

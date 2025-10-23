@@ -32,3 +32,4 @@ export const siteConfig = {
   },
   timezone: "America/Argentina/Buenos_Aires",
 }
+

@@ -67,3 +67,4 @@ export const authOptions: NextAuthOptions = {
     signIn: '/admin/login',
   }
 }
+

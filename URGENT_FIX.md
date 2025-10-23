@@ -98,3 +98,4 @@ Asegúrate de que en Vercel tengas configuradas estas variables:
    - Crear datos iniciales
 
 ¡La web de Mariana Rojas estará lista! 💅✨
+
