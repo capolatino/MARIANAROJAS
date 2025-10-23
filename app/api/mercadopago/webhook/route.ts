@@ -41,6 +41,14 @@ export async function POST(request: NextRequest) {
       )
     }
 
+    // Verificar que transaction_amount existe
+    if (paymentDetails.transaction_amount === undefined) {
+      return NextResponse.json(
+        { success: false, error: 'Monto de transacción no encontrado' },
+        { status: 400 }
+      )
+    }
+
     // Buscar el pago en nuestra base de datos
     const dbPayment = await prisma.payment.findFirst({
       where: {
