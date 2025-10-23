@@ -9,7 +9,7 @@ const getEmailProvider = () => {
   }
   
   if (process.env.SMTP_HOST) {
-    return nodemailer.createTransporter({
+    return nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: parseInt(process.env.SMTP_PORT || '587'),
       secure: false,
