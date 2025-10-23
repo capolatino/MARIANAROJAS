@@ -2,12 +2,12 @@
 
 import { useSearchParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../../components/ui/card'
+import { Button } from '../../../components/ui/button'
+import { Badge } from '../../../components/ui/badge'
 import { CheckCircle, XCircle, Clock, Calendar, CreditCard, Download, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
-import { formatPrice, formatDate, formatTime } from '@/lib/utils'
+import { formatPrice, formatDate, formatTime } from '../../../lib/utils'
 
 type PaymentStatus = 'success' | 'pending' | 'failure'
 

@@ -2,12 +2,12 @@
 
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card'
+import { Button } from '../../components/ui/button'
+import { Badge } from '../../components/ui/badge'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../components/ui/tabs'
 import { Calendar, Clock, User, CreditCard, CheckCircle, ArrowRight } from 'lucide-react'
-import { formatPrice, formatDate, formatTime } from '@/lib/utils'
+import { formatPrice, formatDate, formatTime } from '../../lib/utils'
 
 // Simulación de datos (en producción vendrían de la API)
 const mockServices = [

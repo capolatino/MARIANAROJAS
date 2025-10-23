@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent } from '@/components/ui/card'
+import { Button } from '../components/ui/button'
+import { Card, CardContent } from '../components/ui/card'
 import { 
   Calendar, 
   Sparkles, 
@@ -11,7 +11,7 @@ import {
   Heart,
   ArrowRight
 } from 'lucide-react'
-import { siteConfig } from '@/lib/site'
+import { siteConfig } from '../lib/site'
 
 export default function HomePage() {
   return (

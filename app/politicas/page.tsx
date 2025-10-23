@@ -1,8 +1,8 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/card'
+import { Button } from '../../components/ui/button'
 import { ArrowLeft, Shield, Clock, CreditCard, Phone } from 'lucide-react'
 import Link from 'next/link'
-import { siteConfig } from '@/lib/site'
+import { siteConfig } from '../../lib/site'
 
 export default function PoliticasPage() {
   return (

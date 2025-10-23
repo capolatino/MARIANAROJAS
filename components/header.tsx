@@ -4,9 +4,9 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { Menu, X, Calendar, Phone, Instagram } from 'lucide-react'
-import { Button } from '@/components/ui/button'
-import { siteConfig } from '@/lib/site'
-import { cn } from '@/lib/utils'
+import { Button } from 'ui/button'
+import { siteConfig } from '../lib/site'
+import { cn } from '../lib/utils'
 
 const navigation = [
   { name: 'Inicio', href: '/' },

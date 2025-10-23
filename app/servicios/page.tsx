@@ -1,10 +1,10 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../components/ui/card'
+import { Badge } from '../../components/ui/badge'
+import { Button } from '../../components/ui/button'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../components/ui/tabs'
 import { Clock, Star, Sparkles, Heart } from 'lucide-react'
 import Link from 'next/link'
-import { formatPrice } from '@/lib/utils'
+import { formatPrice } from '../../lib/utils'
 
 // Datos de servicios (en producción vendrían de la base de datos)
 const services = {

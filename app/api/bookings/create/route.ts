@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { prisma } from '@/lib/prisma'
-import { bookingSchema } from '@/lib/validations'
-import { addMinutes } from '@/lib/utils'
+import { prisma } from '../../../../lib/prisma'
+import { bookingSchema } from '../../../../lib/validations'
+import { addMinutes } from '../../../../lib/utils'
 
 export async function POST(request: NextRequest) {
   try {

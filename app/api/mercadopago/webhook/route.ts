@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { prisma } from '@/lib/prisma'
+import { prisma } from '../../../../lib/prisma'
 import { MercadoPagoConfig, Payment } from 'mercadopago'
-import { sendConfirmationEmail } from '@/lib/email'
+import { sendConfirmationEmail } from '../../../../lib/email'
 
 const client = new MercadoPagoConfig({
   accessToken: process.env.MP_ACCESS_TOKEN!,
